@@ -11,12 +11,15 @@ body {
   
   /* header */
 .header {
-    background-color: #ccc5c5;
-    color: white;
-    font-size: 2.5rem;
+    /* background-color: #ccc5c5; */
+    color: black;
+    font-size: 3rem;
     text-align: center;
-    text-shadow: 2px 2px #000000;
+    /* text-shadow: 4px 4px #6e7072; */
+    font-weight: 600;
 }
+
+
 
   /* CUSTOMIZE THE CAROUSEL
   -------------------------------------------------- */
@@ -44,6 +47,35 @@ body {
     height: 32rem;
   }
   
+  /* NAVIGATION */
+  .nav {
+    text-align: center;
+    padding: 20px 0 20px 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+  }
+
+  .nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+  }
+
+  .nav ul li {
+    padding: 0 25px 0 25px;
+  }
+
+  .nav li a {
+    text-decoration: none;
+  }
+  
+  .nav li a:hover {
+    color: #c1c1c1;
+  }
   
   /* MARKETING CONTENT
   -------------------------------------------------- */
@@ -79,7 +111,12 @@ body {
     letter-spacing: -.05rem;
   }
   
-  
+/* images */
+.rounded-circle {
+  object-fit: cover;
+  margin-top: 8rem;
+}
+
   /* RESPONSIVE CSS
   -------------------------------------------------- */
   
